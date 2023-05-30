@@ -4,7 +4,7 @@ module "prod" {
   control_tower_parameters = {
     AccountEmail              = "admin+prod@fictonica.com"
     AccountName               = "Fictonica Prod"
-    ManagedOrganizationalUnit = "Fictonica Workload"
+    ManagedOrganizationalUnit = "Production Workload"
     SSOUserEmail              = "admin+prod@fictonica.com"
     SSOUserFirstName          = "admin"
     SSOUserLastName           = "prod"
