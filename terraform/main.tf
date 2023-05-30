@@ -51,7 +51,7 @@ module "dev" {
     group = "non-prod"
   }
 
-  account_customizations_name = "Fictonica-Dev"
+  account_customizations_name = "Fictonica Dev"
 }
 
 
@@ -80,7 +80,7 @@ module "uat" {
     group = "non-prod"
   }
 
-  account_customizations_name = "Fictonica-UAT"
+  account_customizations_name = "Fictonica UAT"
 }
 
 module "networking" {
