@@ -2,10 +2,10 @@ module "prod" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "admin+prod@fictonica.com"
+    AccountEmail              = "admin+prodacc@fictonica.com"
     AccountName               = "Fictonica Prod"
     ManagedOrganizationalUnit = "Production Workload"
-    SSOUserEmail              = "admin+prod@fictonica.com"
+    SSOUserEmail              = "admin+prodacc@fictonica.com"
     SSOUserFirstName          = "admin"
     SSOUserLastName           = "prod"
   }
@@ -20,7 +20,7 @@ module "prod" {
   }
 
   custom_fields = {
-    group = "prod"
+    group = "non-prod"
   }
 
   account_customizations_name = "Fictonica Prod"
