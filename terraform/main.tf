@@ -30,7 +30,7 @@ module "dev" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "admin+prod@fictonica.com"
+    AccountEmail              = "admin+dev@fictonica.com"
     AccountName               = "Fictonica Dev"
     ManagedOrganizationalUnit = "Fictonica Workload"
     SSOUserEmail              = "admin+dev@fictonica.com"
@@ -59,7 +59,7 @@ module "uat" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "admin+prod@fictonica.com"
+    AccountEmail              = "admin+uat@fictonica.com"
     AccountName               = "Fictonica UAT"
     ManagedOrganizationalUnit = "Fictonica Workload"
     SSOUserEmail              = "admin+uat@fictonica.com"
@@ -87,7 +87,7 @@ module "networking" {
   source = "./modules/aft-account-request"
 
   control_tower_parameters = {
-    AccountEmail              = "admin+prod@fictonica.com"
+    AccountEmail              = "admin+networking@fictonica.com"
     AccountName               = "Fictonica Networking"
     ManagedOrganizationalUnit = "Fictonica Workload"
     SSOUserEmail              = "admin+networking@fictonica.com"
